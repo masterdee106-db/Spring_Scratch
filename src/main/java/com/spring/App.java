@@ -15,5 +15,6 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
         Student student1 = (Student) context.getBean("student1", Student.class);
         System.out.println(student1);
+        System.out.println("Addedd another line ");
     }
 }
