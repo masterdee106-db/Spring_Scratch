@@ -14,17 +14,34 @@
 
     <!--This is our bean-->
 
-    <bean class="com.spring.Student" name="student1">
-        <property name="studentId">
-            <value>166</value>
-        </property>
-        <property name="studentName">
-            <value>Deepan Behera</value>
-        </property>
-        <property name="studentAddress">
-            <value>Bhubaneswar</value>
-        </property>
+<!--    <bean class="com.spring.Student" name="student1">-->
+<!--        <property name="studentId">-->
+<!--            <value>166</value>-->
+<!--        </property>-->
+<!--        <property name="studentName">-->
+<!--            <value>Deepan Behera</value>-->
+<!--        </property>-->
+<!--        <property name="studentAddress">-->
+<!--            <value>Bhubaneswar</value>-->
+<!--        </property>-->
 
-    </bean>
 
+<!--        Implementing spring IOC using another way-->
+
+<!--        <property name="studentId" value="23244"/>-->
+<!--        <property name="studentName" value="Mihir Dash"/>-->
+<!--        <property name="studentAddress" value="Mathura"/>-->
+<!--    </bean>-->
+
+<!--&lt;!&ndash;    // Adding data for another student object&ndash;&gt;-->
+
+<!--    <bean class="com.spring.Student" name="student2">-->
+<!--        <property name="studentId" value="206787"/>-->
+<!--        <property name="studentName" value="Prem Kumar"/>-->
+<!--        <property name="studentAddress" value="Vrindavan"/>-->
+<!--    </bean>-->
+
+<!--    implementing spring IOC container using P-Schema-->
+
+    <bean class="com.spring.Student" name="student1" p:studentId="2390" p:studentName="Deepan Kumar" p:studentAddress="Gujarat"/>
 </beans>

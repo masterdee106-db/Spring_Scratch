@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xmlns:c="http://www.springframework.org/schema/c"
+
+        xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean class="com.spring.ci.Processor" name="iosproRef">
+        <constructor-arg value="BioNic-Chip"/>
+    </bean>
+
+    <bean class="com.spring.ci.Device" name="device">
+        <constructor-arg>
+            <value>iPhone 17 plus</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>245</value>
+        </constructor-arg>
+        <constructor-arg>
+            <ref bean="iosproRef"/>
+        </constructor-arg>
+</bean>
+
+
+<!--        Adding one more constructor arg in more concise way-->
+    <bean class="com.spring.ci.Processor" name="androproRef">
+        <constructor-arg value="SnapDragoon 8000"/>
+    </bean>
+    <bean class="com.spring.ci.Device" name="device2">
+        <constructor-arg value="Samsung"/>
+        <constructor-arg value="809" type="int"/>
+        <constructor-arg ref="androproRef"/>
+    </bean>
+
+
+<!--    Now Implementing another bean using cShema-->
+    <bean class="com.spring.ci.Processor" name="onePlusProcessor" c:processorName="Oxygen-17"/>
+    <bean class="com.spring.ci.Device"
+          name="device3"
+          c:_0="OnePlus 9 Pro"
+          c:_1="7890"
+          c:_2-ref="onePlusProcessor"/>
+</beans>
