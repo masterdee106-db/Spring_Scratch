@@ -1,6 +1,6 @@
 package com.spring.autowire;
 
-public class Addeess {
+public class Address {
     private String street;
     private String city;
 
@@ -20,11 +20,11 @@ public class Addeess {
         this.city = city;
     }
 
-    public Addeess(String street, String city) {
+    public Address(String street, String city) {
         this.street = street;
         this.city = city;
     }
-    public Addeess(){
+    public Address(){
         super();
     }
 

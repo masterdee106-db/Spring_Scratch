@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478bfb46-d03d-4689-8d1e-5c12bf8f523b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/ci/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/ci/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/ci/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/ref/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/ref/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ciconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/refconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/auto/wire/annotation/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/auto/wire/annotation/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/auto/wire/annotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/autowire/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/autowire/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/autowire/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/streotypeconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/autowireannotationconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/autowireconfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.com.spring.auto.wire.annotation.Test.executor": "Run",
+    "Application.com.spring.autowire.Test.executor": "Run",
+    "Application.com.spring.streotype.Test.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.SpringScratch_Maven [clean,install].executor": "Run",
     "Maven.SpringScratch_Maven [clean].executor": "Run",
@@ -55,6 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/SpringScratch_Maven/src/main/java/com/spring/autowire/annotation",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -62,11 +69,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringScratch_Maven\src\main\java\com\spring\autowire\annotation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\SpringScratch_Maven\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.com.spring.streotype.Test">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.App" />
       <module name="SpringScratch_Maven" />
@@ -93,8 +103,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.spring.auto.wire.annotation.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.auto.wire.annotation.Test" />
+      <module name="SpringScratch_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.auto.wire.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.spring.autowire.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.autowire.Test" />
+      <module name="SpringScratch_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.autowire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.spring.streotype.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.streotype.Test" />
+      <module name="SpringScratch_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.streotype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.spring.streotype.Test" />
+        <item itemvalue="Application.com.spring.auto.wire.annotation.Test" />
+        <item itemvalue="Application.com.spring.autowire.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.App" />
       </list>

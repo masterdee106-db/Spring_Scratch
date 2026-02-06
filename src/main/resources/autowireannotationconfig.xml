@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xmlns:c="http://www.springframework.org/schema/c"
+
+        xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    This below annotation config helps to do @autowired feature for injecting object in the dependent class-->
+    <context:annotation-config/>
+
+    <bean class="com.spring.auto.wire.annotation.Address" name="address1">
+        <property name="street" value="Rajiv Gandhi Nagar"/>
+        <property name="city" value="Pune"/>
+    </bean>
+<!--    Here below I am creating another bean to implement @Qualifier annotation-->
+    <bean class="com.spring.auto.wire.annotation.Address" name="address2">
+        <property name="street" value="Manmohan Singh Nagar"/>
+        <property name="city" value="Rajsthan"/>
+    </bean>
+    <bean class="com.spring.auto.wire.annotation.Customer" name="customer1" />
+    <!--    <bean class="com.spring.autowire.Customer" name="customer1" autowire="byName"/>-->
+</beans>
