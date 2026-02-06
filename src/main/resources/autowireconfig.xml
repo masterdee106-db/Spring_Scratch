@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xmlns:c="http://www.springframework.org/schema/c"
+
+        xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean class="com.spring.autowire.Address" name="address1">  Here if you change the name of the bean which is not equals to the reference type of the object then you will get the value of the address as null so you need to give the reference variable name is same.-->
+<!--    This below bean is create for byName autowire means it will search for the name like is there any bean is created with name Address if found then it will give the object of this to required place-->
+<!--    <bean class="com.spring.autowire.Address" name="address">-->
+<!--        <property name="street" value="Azad Nagar"/>-->
+<!--        <property name="city" value="Bhubaneswar"/>-->
+<!--    </bean>-->
+
+<!--    This below lines of code defines the bean as byType so it will file is there any address type bean is created if found then it will give the object to that particular place here you can give the reference variable name as per your need because here it will search for the type...-->
+    <bean class="com.spring.autowire.Address" name="address1">
+        <property name="street" value="Rajiv Gandhi Nagar"/>
+        <property name="city" value="Pune"/>
+    </bean>
+    <bean class="com.spring.autowire.Customer" name="customer1" autowire="byType"/>
+<!--    <bean class="com.spring.autowire.Customer" name="customer1" autowire="byName"/>-->
+</beans>
