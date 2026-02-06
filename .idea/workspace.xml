@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478bfb46-d03d-4689-8d1e-5c12bf8f523b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/auto/wire/annotation/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/auto/wire/annotation/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/auto/wire/annotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/autowire/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/autowire/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/autowire/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/streotypeconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autowireannotationconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autowireconfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
