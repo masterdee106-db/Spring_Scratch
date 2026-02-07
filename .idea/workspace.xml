@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="478bfb46-d03d-4689-8d1e-5c12bf8f523b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/javabaseConfiguration/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/javabaseConfiguration/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/javabaseConfiguration/StudentConfiguration_Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/javabaseConfiguration/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/javabaseConfiguration/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/streotype/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
     "Application.Test.executor": "Run",
     "Application.com.spring.auto.wire.annotation.Test.executor": "Run",
     "Application.com.spring.autowire.Test.executor": "Run",
+    "Application.com.spring.javabaseConfiguration.Test.executor": "Run",
     "Application.com.spring.streotype.Test.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.SpringScratch_Maven [clean,install].executor": "Run",
@@ -66,20 +70,7 @@
       <recent name="E:\SpringScratch_Maven\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.spring.streotype.Test">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.App" />
-      <module name="SpringScratch_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.spring.javabaseConfiguration.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.ci.Test" />
       <module name="SpringScratch_Maven" />
@@ -119,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.spring.javabaseConfiguration.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.javabaseConfiguration.Test" />
+      <module name="SpringScratch_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.javabaseConfiguration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.spring.streotype.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.streotype.Test" />
       <module name="SpringScratch_Maven" />
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.spring.javabaseConfiguration.Test" />
         <item itemvalue="Application.com.spring.streotype.Test" />
         <item itemvalue="Application.com.spring.auto.wire.annotation.Test" />
         <item itemvalue="Application.com.spring.autowire.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
